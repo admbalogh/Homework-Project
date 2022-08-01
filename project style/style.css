@@ -66,7 +66,6 @@ a {
 .btn-branding:hover {
   background: #c1bdff;
   color: black;
-  border: white;
   box-shadow: 0em 1em 3em 0px rgb(0 0 0 / 15%);
   transition: ease-in-out 300ms;
 }
@@ -109,7 +108,7 @@ footer {
 .instagram-icon:hover {
   text-decoration: none;
   transition: ease-in-out 250ms;
-  font-size: 45px;
+  font-size: 38px;
   color: rgb(255, 173, 173);
   cursor: pointer;
 }
