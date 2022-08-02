@@ -37,6 +37,24 @@ a {
   display: block;
   margin: 0 auto;
 }
+.about-section {
+  padding: 160px 20px;
+  background: var(--secondary-color);
+}
+
+.about-section h1 {
+  font-size: 54px;
+  line-height: 80px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.about-section h2 {
+  font-size: 18px;
+  font-family: var(--heading-font-family);
+  font-weight: 300;
+}
+.about-section-content {
+  margin: 30px;
+}
 .homepage h1 {
   font-weight: normal;
   font-family: var(--heading-font-family);
@@ -58,7 +76,7 @@ a {
   background: #958fff;
   color: #212529;
   font-size: 13px;
-  font-family: monospace;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   border-radius: 10px;
   line-height: 27px;
   padding: 8px 20px;
@@ -113,7 +131,7 @@ footer {
   cursor: pointer;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 980px) {
   .homepage h1 {
     font-size: 42px;
   }
@@ -122,6 +140,16 @@ footer {
   }
   .container {
     display: inherit;
+  }
+  .about-section h1 {
+    font-size: 40px;
+  }
+  .about-section {
+    padding: 20px;
+    text-align: center;
+  }
+  .about-section-content {
+    padding-bottom: 20px;
   }
   .intro-line {
     font-size: 15px;
