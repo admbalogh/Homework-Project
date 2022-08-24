@@ -26,6 +26,35 @@ a {
   text-decoration: none;
   color: black;
 }
+nav {
+  padding: 10px;
+}
+nav ul {
+  margin: 30px 0;
+  padding: 0;
+}
+nav li {
+  display: inline;
+  margin: 20px;
+  list-style: none;
+  line-height: 50px;
+}
+nav a {
+  text-decoration: none;
+  color: black;
+  opacity: 80%;
+}
+nav a:hover,
+nav li.active a {
+  color: rgb(250, 152, 152);
+  transition: all 200ms ease-in-out;
+}
+.container-header {
+  margin: 0 80px;
+}
+.logo {
+  max-height: 120px;
+}
 .intro-line {
   background: white;
   margin: 30px auto;
@@ -57,8 +86,8 @@ a {
   margin: 30px;
 }
 .content h1 {
-  padding-bottom: 60px;
-  font-size: 52px;
+  padding-bottom: 20px;
+  font-size: 36px;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-weight: 300;
 }
@@ -147,6 +176,9 @@ footer {
 }
 
 @media (max-width: 980px) {
+  .logo {
+    max-height: 80px;
+  }
   .homepage h1 {
     font-size: 42px;
   }
@@ -158,6 +190,7 @@ footer {
   }
   .content-container h1 {
     font-size: 40px;
+    letter-spacing: 0.1em;
   }
   .content-container {
     padding: 20px;
@@ -180,5 +213,13 @@ footer {
   }
   p {
     font-size: 14px;
+  }
+  nav ul {
+    display: flex;
+    font-size: 13px;
+    margin: 1px;
+  }
+  .container-header {
+    margin: 0;
   }
 }
