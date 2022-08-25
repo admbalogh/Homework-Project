@@ -3,10 +3,6 @@
   --secondary-color: #f9f7feda;
   --heading-font-family: "Montserrat", sans-serif;
 }
-hr {
-  color: 0.5px solid black;
-  margin: 100px auto;
-}
 
 h2 {
   font-size: 42px;
@@ -159,19 +155,31 @@ nav li.active a {
 }
 
 footer {
-  text-align: center;
-  padding-bottom: 50px;
-  margin: 0px auto;
+  padding: 40px 0;
   background: #f9f7feda;
 }
-.instagram-icon {
-  font-size: 32px;
+footer .email-link {
+  font-size: 24px;
+  text-decoration: none;
+  color: black;
 }
-.instagram-icon:hover {
+footer .email-link:hover {
+  transition: all 150ms ease-in-out;
+  color: #0966c2;
+}
+.social-links a {
+  background: white;
+  color: #958fff;
+  padding: 10px 18px;
+  border-radius: 50%;
+  margin: 0 40px;
+  font-size: 30px;
+}
+.social-links a:hover {
   text-decoration: none;
   transition: ease-in-out 250ms;
-  font-size: 38px;
-  color: rgb(255, 173, 173);
+  font-size: 30px;
+  color: #0966c2;
   cursor: pointer;
 }
 
