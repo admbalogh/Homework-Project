@@ -4,6 +4,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Adam Balogh is a front-end developer engineer based in United Kingdom, London. 
+      Junior front-end developer , website engineer.Work, project, portfolio work."
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <script
@@ -28,38 +33,91 @@
 
     <link rel="stylesheet" href="project style/style.css" />
 
-    <title>Work</title>
+    <title>Front-end developer - Work projects</title>
   </head>
   <body>
+    <div class="container-header">
+      <nav class="d-flex justify-content-between">
+        <a href="/" title="Homepage Logo"
+          ><img src="/project images/logo.png " class="logo"
+        /></a>
+        <ul>
+          <li><a href="/" title="Homepage">Home</a></li>
+          <li><a href="/about.html" title="About Adam">About</a></li>
+          <li class="active">
+            <a href="/work.html" title="Adam's workpage">Work</a>
+          </li>
+          <li><a href="/contact.html" title="Contact Adam">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
     <div class="content-container container">
       <div class="content">
-        <h1 class="mb-5 text-center">
+        <h1 class="mb-3 text-center">
           Take a look at what I've been working on!
         </h1>
         <div class="row">
           <div class="col-lg-6 text-center">
             <img
               src="/project images/negroni image.png"
-              alt=""
+              alt="Negroni Page Preview"
               class="img-fluid rounded mb-4 p-2 border border-secondary"
             />
             <h3 class="text-center mb-2">Negroni landing page</h3>
-            <p class="text-center text-muted mb-5">Built with HTML and CSS</p>
+            <p class="text-center text-muted mb-4">Built with HTML and CSS</p>
+            <a
+              href="https://inspiring-hamster-743845.netlify.app/"
+              class="btn btn-branding-outline mb-5"
+            >
+              Try it out
+            </a>
           </div>
           <div class="col-lg-6 text-center">
             <img
-              src="/project images/weatherapp.png"
-              alt=""
-              style="width: 450px"
+              src="/project images/wheaterapp.png"
+              alt="Wheather app project preview"
               class="img-fluid rounded mb-4 p-1 border border-secondary"
             />
             <h3 class="text-center mb-2">Weather app project</h3>
-            <p class="text-center text-muted">
+            <p class="text-center text-muted mb-4">
               Built with HTML, CSS and Javascript
             </p>
+            <a
+              href="https://elated-newton-3f07f1.netlify.app"
+              class="btn btn-branding-outline"
+            >
+              Try it out
+            </a>
           </div>
         </div>
       </div>
+      <footer>
+        <div class="d-flex justify-content-center mb-5 mt-4">
+          <a
+            href="mailto:adam.j.balogh@gmail.com"
+            class="email-link"
+            title="Email Adam"
+            >adam.j.balogh@gmail.com</a
+          >
+          <i class="fa-regular fa-envelope fa-bounce"></i>
+        </div>
+        <div class="social-links d-flex justify-content-center mb-5">
+          <a
+            href="https://www.linkedin.com/in/adam-balogh-041081118/"
+            target="_blank"
+            title="LinkedIn Profile"
+          >
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
+          <a
+            href="https://github.com/admbalogh"
+            target="_blank"
+            title="GitHub Profile"
+          >
+            <i class="fa-brands fa-github"></i
+          ></a>
+        </div>
+      </footer>
     </div>
   </body>
 </html>
